@@ -1,0 +1,136 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.player-card {
+  border-radius: 0.75rem;
+  border: solid 2.5px #f9022b;
+}
+
+.player-img {
+  height: 50%;
+  position: relative;
+}
+
+.player-img img {
+  width: 100%;
+}
+
+.player-pos {
+  position: absolute;
+  border-radius: 0.375rem;
+  width: 2rem;
+  height: 2rem;
+  background: rgb(94, 94, 94);
+  background: linear-gradient(
+    135deg,
+    rgba(94, 94, 94, 1) 0%,
+    rgba(18, 18, 18, 0.7035189075630253) 0%,
+    rgba(18, 18, 18, 0.4) 67%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  color: white;
+  border: solid 0px black;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.25rem;
+}
+
+.player-pos-full {
+  position: absolute;
+  border-radius: 0.375rem;
+  width: max-content;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  height: 2rem;
+  background: rgb(94, 94, 94);
+  background: linear-gradient(
+    135deg,
+    rgba(94, 94, 94, 1) 0%,
+    rgba(18, 18, 18, 0.7035189075630253) 0%,
+    rgba(18, 18, 18, 0.4) 67%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  color: white;
+  border: solid 0px black;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.25rem;
+}
+
+.player-name {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.player-stats p {
+  margin: 0 !important;
+}
+
+.table-heading {
+  margin: 5em;
+  padding-right: 6rem;
+  font-family: "League Spartan", sans-serif !important ;
+  font-size: 48px;
+}
+
+.team-img {
+  height: 100%;
+}
+
+.team-img div {
+  height: 100%;
+}
+
+.team-logo-div {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.team-logo {
+  height: 75%;
+  width: auto;
+}
+
+.team-row {
+  height: 3rem;
+  border-radius: 0.5em;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.container {
+  white-space: pre;
+}
+
+#club-heading {
+  margin-right: 2em;
+}
+
+/* @media (max-width: 992px) {
+  .row h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .col {
+    font-size: 20px;
+  }
+  .col-2 {
+    font-size: 20px;
+  }
+  .col-3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .row h2 {
+    font-size: 15px;
+  }
+  .col {
+    font-size: 15px;
+  }
+} */
