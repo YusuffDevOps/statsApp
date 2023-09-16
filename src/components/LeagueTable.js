@@ -1,6 +1,6 @@
-import { kebabCase } from "lodash";
-import TeamRow from "./TeamRow";
-import { teams } from "../../public/data";
+import { kebabCase } from 'lodash';
+import TeamRow from './TeamRow';
+import { teams } from '../data';
 
 export default function LeagueTable(props) {
   return (
