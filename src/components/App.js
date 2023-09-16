@@ -1,6 +1,6 @@
-import PlayerCard from "./PlayerCard";
-import players from "../../public/data.js";
-import LeagueTable from "./LeagueTable";
+import PlayerCard from './PlayerCard';
+import players from '../data';
+import LeagueTable from './LeagueTable';
 
 export default function App() {
   return (
